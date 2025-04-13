@@ -18,13 +18,6 @@ npm install
 ## Run
 npm start
 
-## Usage
- POST to shorten : 
- ```bash 
- curl -X POST -H "Content-Type: application/json" -d '{"longUrl":"https://www.amazon.com"}' http://localhost:5000/api/url/shorten
-
- GET to redirect
- Visit http://localhost:5000/xyz123
 
 ## Technologies: 
 Node.js
@@ -42,3 +35,12 @@ Noted Mongoose circular dependency warnings (count, findOne) and Node.js [DEP017
 Would upgrade Mongoose and dependencies in production.
 Vulnerabilities:
  39 npm vulnerabilities (e.g., shortid) ignored for this prototype, as they didn’t affect testing.
+
+## Usage
+ POST to shorten : 
+ ```bash 
+ curl -X POST -H "Content-Type: application/json" -d '{"longUrl":"https://www.amazon.com"}' http://localhost:5000/api/url/shorten
+ 
+ GET to redirect
+ Visit http://localhost:5000/xyz123
+
