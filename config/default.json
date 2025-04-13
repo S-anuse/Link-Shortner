@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Link-Shortner:Link-Shortner@123@link-shortner.xdvh5cu.mongodb.net/urlshortener?retryWrites=true&w=majority&appName=Link-Shortner",
+  "baseUrl": "http://localhost:5000"
+}
