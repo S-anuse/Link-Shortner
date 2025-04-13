@@ -20,7 +20,8 @@ npm start
 
 ## Usage
  POST to shorten : 
- ```bash curl -X POST -H "Content-Type: application/json" -d '{"longUrl":"https://www.amazon.com"}' http://localhost:5000/api/url/shorten
+ ```bash 
+ curl -X POST -H "Content-Type: application/json" -d '{"longUrl":"https://www.amazon.com"}' http://localhost:5000/api/url/shorten
 
  GET to redirect
  Visit http://localhost:5000/xyz123
